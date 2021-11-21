@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout.njk" %}
 
 {% block head %}
 
@@ -15,83 +15,21 @@
 </div>
 
 <section class="cards">
-    <div class="card" id="cZvWDTqTGKg">
-        <div class="card-image-container">
-            <img src="https://img.youtube.com/vi/cZvWDTqTGKg/maxresdefault.jpg" alt="Video aula">
-        </div>
-        <div class="card-content">
-            <p>Quadro de imagens igual ao Pinterest com CSS puro</p>
-        </div>
-        <div class="card-info">
-            <p>14min</p>
-            <p class="card-price">Free</p>
-        </div>
-    </div>
 
-    <div class="card" id="CITYla5utT4">
+    {% for item in items %}
+    <div class="card" id="{{item.id}}">
         <div class="card-image-container">
-            <img src="https://img.youtube.com/vi/CITYla5utT4/maxresdefault.jpg" alt="Video aula">
+            <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="Video aula">
         </div>
         <div class="card-content">
-            <p>Campo HTML para inserir tags com CSS e JavaScript</p>
+            <p>{{item.title}}</p>
         </div>
         <div class="card-info">
-            <p>37min</p>
-            <p class="card-price">Free</p>
+            <p>{{item.duration}}</p>
+            <p class="card-price">{{item.price}}</p>
         </div>
     </div>
-
-    <div class="card" id="Z-f8868RTE4">
-        <div class="card-image-container">
-            <img src="https://img.youtube.com/vi/Z-f8868RTE4/maxresdefault.jpg" alt="Video aula">
-        </div>
-        <div class="card-content">
-            <p>TDD com JavaScript</p>
-        </div>
-        <div class="card-info">
-            <p>121min</p>
-            <p class="card-price">Free</p>
-        </div>
-    </div>
-
-    <div class="card" id="RkLjxfUTeKc">
-        <div class="card-image-container">
-            <img src="https://img.youtube.com/vi/RkLjxfUTeKc/maxresdefault.jpg" alt="Video aula">
-        </div>
-        <div class="card-content">
-            <p>Desmistificando MAP, FILTER e REDUCE</p>
-        </div>
-        <div class="card-info">
-            <p>110min</p>
-            <p class="card-price">Free</p>
-        </div>
-    </div>
-
-    <div class="card" id="Uptu3NrBFBM">
-        <div class="card-image-container">
-            <img src="https://img.youtube.com/vi/Uptu3NrBFBM/maxresdefault.jpg" alt="Video aula">
-        </div>
-        <div class="card-content">
-            <p>Aplicação com JavaScript puro: Como desenvolver uma pokedex com JS</p>
-        </div>
-        <div class="card-info">
-            <p>32min</p>
-            <p class="card-price">Free</p>
-        </div>
-    </div>
-
-    <div class="card" id="p34kaxW0WjU">
-        <div class="card-image-container">
-            <img src="https://img.youtube.com/vi/p34kaxW0WjU/maxresdefault.jpg" alt="Video aula">
-        </div>
-        <div class="card-content">
-            <p>Crud em 12 minutos</p>
-        </div>
-        <div class="card-info">
-            <p>13min</p>
-            <p class="card-price">Free</p>
-        </div>
-    </div>
+    {% endfor %}
 
 </section>
 

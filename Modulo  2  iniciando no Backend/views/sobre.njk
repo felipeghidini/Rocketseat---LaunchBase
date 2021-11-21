@@ -1,23 +1,24 @@
-{% extends "layout.html" %}
+{% extends "layout.njk" %}
 
 {% block head %}
 
-<title>Sobre - Felipe Ghidini</title>
+<title>Sobre - {{ sobre.name }}</title>
 
 {% endblock %}
 
 {% block content %}
 
 <div id="wrapper">
-    <img src="https://avatars.githubusercontent.com/u/49081674?s=400&u=8ae5c833ff4fe50cae5a2209e7f5fed13f671619&v=4"
+    <img src="{{ sobre.avatar_url }}"
         alt="Felipe Ghidini">
-    <h1>Felipe Ghidini</h1>
-    <h2>Aluno Rocketseat</h2>
-    <p>Programador focado em Desenvolvimento Web, que procura um maior aperfeiçoamento a cada dia</p>
+    <h1>{{ sobre.name }}</h1>
+    <h2>{{ sobre.role }}</h2>
+    <p>{{ sobre.description }}</p>
 </div>
 <div id="links-footer" class="links">
-    <a href="https://github.com/felipeghidini" target="_blank">Github</a>
-    <a href="https://www.linkedin.com/in/felipe-ghidini-471a3510a/" target="_blank">Linkedin</a>
+    {% for link in sobre.links %}
+    <a href="{{ link.url }}" target="_blank">{{ link.name }}</a>
+    {% endfor %}
 </div>
 
 {% endblock %}
