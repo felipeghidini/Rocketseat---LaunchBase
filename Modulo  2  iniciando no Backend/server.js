@@ -5,14 +5,14 @@ const server = express();
 
 server.use(express.static('public'));
 
-server.set('view engine', 'html');
+server.set('view engine', 'njk');
 
 nunjucks.configure('views', {
     express: server
 })
 
 server.get('/', (req, res) => {
-    return res.render('index');
+    return res.render('sobre');
 })
 
 server.get('/classes', (req, res) => {
