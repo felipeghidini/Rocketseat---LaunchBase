@@ -3,7 +3,8 @@ module.exports = [
         id: "cZvWDTqTGKg",
         title: "Quadro de imagens igual ao Pinterest com CSS puro",
         duration: "14min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "CITYla5utT4",
@@ -15,7 +16,8 @@ module.exports = [
         id: "Z-f8868RTE4",
         title: "TDD com JavaScript",
         duration: "121min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "RkLjxfUTeKc",
@@ -33,6 +35,7 @@ module.exports = [
         id: "p34kaxW0WjU",
         title: "Crud em 12 minutos",
         duration: "13min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
 ]
