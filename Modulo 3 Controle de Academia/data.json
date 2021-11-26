@@ -1,34 +1,13 @@
 {
   "instructors": [
     {
+      "id": 1,
+      "name": "Felipe Ghidini",
       "avatar_url": "https://github.com/felipeghidini",
-      "name": "Felipe Rodrigues Ghidini",
-      "birth": "2021-11-10",
+      "birth": 628732800000,
       "gender": "M",
-      "services": "Corrida"
-    },
-    {
-      "avatar_url": "https://github.com/felipeghidini",
-      "name": "Felipe",
-      "birth": "2000-12-12",
-      "gender": "M",
-      "services": "Fit"
-    },
-    {
-      "avatar_url": "https://github.com/felipeghidini",
-      "name": "Thiago",
-      "birth": "1990-12-08",
-      "gender": "M",
-      "services": "Crossfit",
-      "created_at": 1637921080792
-    },
-    {
-      "avatar_url": "https://github.com/felipeghidini",
-      "name": "Felipe",
-      "birth": 1002672000000,
-      "gender": "M",
-      "services": "Corrida, Fit",
-      "created_at": 1637921194305
+      "services": "Corrida",
+      "created_at": 1637922137302
     }
   ]
 }

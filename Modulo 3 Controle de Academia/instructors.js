@@ -11,10 +11,21 @@ exports.post = (req, res) => {
         }
     }
 
-    req.body.birth = Date.parse(req.body.birth);
-    req.body.created_at = Date.now();
+    let { avatar_url, birth, name, services, gender } = req.body;
+    
+    birth = Date.parse(req.body.birth);
+    const created_at = Date.now();
+    const id = Number(data.instructors.length + 1);
 
-    data.instructors.push(req.body); 
+    data.instructors.push({
+        id, 
+        name, 
+        avatar_url, 
+        birth,  
+        gender,
+        services, 
+        created_at 
+    }); 
 
     fs.writeFile("data.json", JSON.stringify(data, null, 2), (err) => {
         if (err) {
