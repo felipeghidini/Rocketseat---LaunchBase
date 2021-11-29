@@ -1,15 +1,6 @@
 {
   "instructors": [
     {
-      "id": 1,
-      "name": "Felipe Ghidini",
-      "avatar_url": "https://github.com/felipeghidini",
-      "birth": 628732800000,
-      "gender": "F",
-      "services": "Corrida, Crossfit",
-      "created_at": 1637922137302
-    },
-    {
       "id": 2,
       "name": "Felipe Rodrigues Ghidini",
       "avatar_url": "https://github.com/felipeghidini",
@@ -46,11 +37,11 @@
       "created_at": 1637941606333
     },
     {
-      "id": 6,
-      "name": "Felipe Ghidini",
+      "id": "6",
+      "name": "Felipe Rodrigues Ghidini",
       "avatar_url": "https://github.com/felipeghidini",
-      "birth": 1635811200000,
-      "gender": "F",
+      "birth": 608515200000,
+      "gender": "M",
       "services": "Corrida, Crossfit",
       "created_at": 1638100943586
     }
