@@ -1,33 +1,6 @@
 {
   "instructors": [
     {
-      "id": 2,
-      "name": "Felipe Rodrigues Ghidini",
-      "avatar_url": "https://github.com/felipeghidini",
-      "birth": 1635897600000,
-      "gender": "M",
-      "services": "Crossfit, Corrida, Dança",
-      "created_at": 1637933168256
-    },
-    {
-      "id": 3,
-      "name": "Felipe",
-      "avatar_url": "https://github.com/felipeghidini",
-      "birth": 1635897600000,
-      "gender": "M",
-      "services": "Fit",
-      "created_at": 1637933562287
-    },
-    {
-      "id": 4,
-      "name": "Thiago",
-      "avatar_url": "https://github.com/felipeghidini",
-      "birth": 628732800000,
-      "gender": "M",
-      "services": "Fit",
-      "created_at": 1637940291644
-    },
-    {
       "id": 5,
       "name": "Felipe Rodrigues Ghidini",
       "avatar_url": "https://source.unsplash.com/collection/8172461/500x500",
@@ -37,9 +10,9 @@
       "created_at": 1637941606333
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Felipe Rodrigues Ghidini",
-      "avatar_url": "https://github.com/felipeghidini",
+      "avatar_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
       "birth": 608515200000,
       "gender": "M",
       "services": "Corrida, Crossfit",
