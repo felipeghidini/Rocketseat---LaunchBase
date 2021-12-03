@@ -74,7 +74,7 @@ exports.edit = (req, res) => {
 
     const member = {
         ...foundMember,
-        birth: date(foundMember.birth)
+        birth: date(foundMember.birth).iso
     }
 
 

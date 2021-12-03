@@ -1,15 +1,26 @@
 {
   "members": [
     {
-      "avatar_url": "https://unsplash.com/photos/CQfNt66ttZM",
-      "name": "Thiago",
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+      "name": "Felipe Ghidini",
       "email": "felipe.ghidini@gft.com",
-      "birth": 660614400000,
+      "birth": 628732800000,
       "gender": "M",
-      "blood": "B0",
-      "weight": "76",
-      "height": "190",
-      "id": 1
+      "blood": "A+",
+      "weight": "75",
+      "height": "171"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+      "name": "Thiago",
+      "email": "lipeghidini18@gmail.com",
+      "birth": 650937600000,
+      "gender": "M",
+      "blood": "AB-",
+      "weight": "70",
+      "height": "170"
     }
   ],
   "instructors": [
