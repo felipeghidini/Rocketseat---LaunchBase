@@ -1,5 +1,17 @@
 {
-  "members":[],
+  "members": [
+    {
+      "avatar_url": "https://unsplash.com/photos/CQfNt66ttZM",
+      "name": "Thiago",
+      "email": "felipe.ghidini@gft.com",
+      "birth": 660614400000,
+      "gender": "M",
+      "blood": "B0",
+      "weight": "76",
+      "height": "190",
+      "id": 1
+    }
+  ],
   "instructors": [
     {
       "id": 5,
